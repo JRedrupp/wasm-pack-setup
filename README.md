@@ -37,6 +37,6 @@ pub fn add(a: i32, b: i32) -> i32 {
 
 </html>
 ```
-1. Ensure you have the python web server installed. If not, run `pip install http-server`
-2. Run `python3 -m http.server` to start a local server
-3.  Open `http://localhost:8000` in your browser
+9. Ensure you have the python web server installed. If not, run `pip install http-server`
+10. Run `python3 -m http.server` to start a local server
+11.  Open `http://localhost:8000` in your browser
