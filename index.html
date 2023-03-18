@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WASM Setup Example</title>
+
+</head>
+
+<body>
+    <script type="module">
+        import init, { add } from './pkg/wasm_pack_setup.js';
+
+        await init();
+
+        console.log(add(1, 2));
+
+    </script>
+</body>
+
+</html>
